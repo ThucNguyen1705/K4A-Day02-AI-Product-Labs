@@ -12,16 +12,13 @@
 | 4   | Nguyễn Thọ Đạt | 2A202602484 | Technical Lead (Phân tích kiến trúc kỹ thuật Rule vs AI) |
 | 5   | Đinh Trường An | 2A202602393 | Research & Validation Lead (Thu thập phỏng vấn, khảo sát thực tế) |
 | 6   | Nguyễn Văn Tài | 2A202603004 | Writer & Risk Lead (Tổng hợp báo cáo, đánh giá rủi ro & fallback) |
-| 7   | Nguyễn Đăng Thực | 2A202603014 | Metric & Boundary Lead (Siết success metric có cách đo, chốt ranh giới làm/không làm) |
-
-> **Ghi chú bản copy cá nhân:** dòng số 7 và các candidate #19–#21 là phần đóng góp của thành viên thứ 7 bị thiếu trong bản nhóm gốc. Cần báo lại nhóm để bản chính thức của cả 7 người khớp nhau.
 
 **Candidate problem nhóm chọn (1 câu):**  
 Người bán hàng và chủ shop online nhỏ rất khó nghĩ ra một chiến lược marketing tổng thể để đưa sản phẩm mới ra thị trường (từ research xu hướng, lên concept quảng bá, tạo ảnh/content, đến triển khai trên sàn TMĐT TikTok Shop/Shopee), dẫn đến việc đăng sản phẩm thụ động không có chiến lược, tỷ lệ chuyển đổi thấp (<1%) và lãng phí ngân sách quảng cáo.
 
 ---
 
-## Phase 3 — Group Convergence: từ 21 candidates (7 thành viên × 3) về 1
+## Phase 3 — Group Convergence: từ 18 candidates (6 thành viên × 3) về 1
 
 ### 3.1. Trình bày top 3 mỗi người (mỗi candidate 1-2 phút)
 
@@ -45,18 +42,15 @@ Người bán hàng và chủ shop online nhỏ rất khó nghĩ ra một chiế
 | 16 | Nguyễn Văn Tài | Rà soát và thẩm định đánh giá tài xế ≤2 sao nền tảng gọi xe | Đội QC nền tảng gọi xe, Tài xế | Đọc comment, nghe ghi âm, đối chiếu GPS tốn 120–150h/ngày | Bài toán doanh nghiệp rất hay, nhưng dữ liệu nhạy cảm, sinh viên không truy cập được |
 | 17 | Nguyễn Văn Tài | Hotline hỗ trợ xử lý sự cố trụ sạc xe điện công cộng | Tổng đài viên, Tài xế xe điện | Khách đứng chờ tại trụ, tổng đài viên tra mã lỗi thủ công | Mã lỗi là tập cố định có đúng/sai rõ, giải quyết bằng Rule/Chatbot tra cứu là đủ |
 | 18 | Nguyễn Văn Tài | Tìm trẻ lạc tại khu vui chơi / công viên giải trí đông người | Phụ huynh, Nhân viên an ninh | Tìm kiếm thủ công qua mô tả và bộ đàm mất ~25'/ca | Rủi ro an toàn cao; nhóm thống nhất nên giải bằng vòng đeo tay QR định danh (No AI) |
-| 19 | Nguyễn Đăng Thực | Tùy biến CV + thư ứng tuyển theo từng JD khi apply thực tập | Sinh viên năm cuối đi apply intern | Viết lại phần kinh nghiệm/kỹ năng cho khớp JD mất 25'/đơn | Workflow rất rõ và metric bấm giờ được, nhưng ranh giới đạo đức nhạy cảm (AI dễ bịa kinh nghiệm), quy mô cá nhân |
-| 20 | Nguyễn Đăng Thực | Tạo bộ câu hỏi tự kiểm sau mỗi buổi học 4 tiếng để ôn lại | Học viên khóa học dài hạn, sinh viên | Nghĩ ra câu hỏi tự kiểm mất 20'/buổi, thường bỏ luôn không làm | Đúng thế mạnh AI nhưng chất lượng câu hỏi khó đo khách quan trong phạm vi lab |
-| 21 | Nguyễn Đăng Thực | Gom và phân loại chi tiêu cá nhân rải rác nhiều ví/ngân hàng | Sinh viên, người trẻ tự quản lý chi tiêu | Cuối tháng mất 60' gõ và phân loại giao dịch từ 4 nguồn | Tập danh mục cố định, đúng/sai rõ → nhóm thống nhất Rule (từ khóa + app có sẵn) là đủ, không cần AI |
 
-### 3.2. Gom trùng / cluster (gom 21 ý thành 4 cụm)
+### 3.2. Gom trùng / cluster (gom 18 ý thành 4 cụm)
 
 | Cluster | Candidates included | Pattern chung | Ghi chú |
 |---|---|---|---|
 | **A. Hỗ trợ Kinh doanh nhỏ & Thương mại điện tử** | #3 (AI Marketing Kit), #7, #8, #9 (Vận hành F&B) | Người kinh doanh nhỏ lẻ, chủ shop tự thân thiếu kỹ năng chuyên môn và nguồn lực, phải tự làm mọi việc từ chiến lược đến thực thi | **Tiềm năng thương mại và tính cấp thiết cao nhất, người dùng sẵn sàng chi trả giải pháp** |
-| **B. Tối ưu Năng suất Học tập & Làm đồ án** | #4 (Sync deadline), #5 (Pre-check đồ án), #12 (Code convention nhóm), #19 (Tùy biến CV theo JD), #20 (Câu hỏi tự kiểm sau buổi học) | Sinh viên bị quá tải bởi thông tin phân tán đa kênh và checklist định dạng/review thủ công | Rất gần gũi với nhóm, workflow chặt chẽ nhưng quy mô tác động hẹp trong phạm vi sinh viên |
+| **B. Tối ưu Năng suất Học tập & Làm đồ án** | #4 (Sync deadline), #5 (Pre-check đồ án), #12 (Code convention nhóm) | Sinh viên bị quá tải bởi thông tin phân tán đa kênh và checklist định dạng/review thủ công | Rất gần gũi với nhóm, workflow chặt chẽ nhưng quy mô tác động hẹp trong phạm vi sinh viên |
 | **C. Tự động hóa Kỹ thuật Lập trình & Hạ tầng** | #6 (Log lỗi backend), #10 (PR description), #11 (Standup), #17 (Mã lỗi trạm sạc) | Kỹ sư/developer tốn thời gian vào các tác vụ lặp lại xung quanh việc viết code, debug và vận hành | Giải pháp kỹ thuật rõ ràng nhưng thị trường đã có nhiều công cụ lập trình cạnh tranh |
-| **D. Dịch vụ Công, Y tế & Đời sống Xã hội** | #1 (Sâu bệnh cây trồng), #2, #15 (Thủ tục hành chính), #13 (Tập thể dục), #14 (Khám bệnh), #16 (QC tài xế), #18 (Tìm trẻ lạc), #21 (Phân loại chi tiêu cá nhân) | Người dân và cộng đồng gặp khó khăn khi tiếp cận quy trình phức tạp ngoài đời sống | Tác động xã hội cao nhưng rào cản về dữ liệu độc quyền, trách nhiệm pháp lý lớn hoặc nên dùng No AI |
+| **D. Dịch vụ Công, Y tế & Đời sống Xã hội** | #1 (Sâu bệnh cây trồng), #2, #15 (Thủ tục hành chính), #13 (Tập thể dục), #14 (Khám bệnh), #16 (QC tài xế), #18 (Tìm trẻ lạc) | Người dân và cộng đồng gặp khó khăn khi tiếp cận quy trình phức tạp ngoài đời sống | Tác động xã hội cao nhưng rào cản về dữ liệu độc quyền, trách nhiệm pháp lý lớn hoặc nên dùng No AI |
 
 ### 3.3. Shortlist (giữ 2-3 bài trả lời được 7 câu hỏi worksheet)
 
@@ -95,8 +89,6 @@ Khó nghĩ ra chiến lược marketing để đưa sản phẩm mới ra thị 
 - Đối với bài Đồng bộ Deadline đa kênh (Minh): Mặc dù workflow rất chặt chẽ, dễ pilot và ít rủi ro, nhưng quy mô tác động chỉ giới hạn trong môi trường học đường, chưa mang lại giá trị gia tăng kinh tế rõ rệt như bài toán marketing thương mại.
 - Đối với bài Tự động tạo PR Description (Đạt): Tệp người dùng quá đặc thù (lập trình viên), đồng thời các công cụ sẵn có như GitHub Copilot / Cursor đã hỗ trợ tính năng này rất tốt, khoảng trống thị trường cho nhóm không còn nhiều.
 - Đối với các bài F&B, Nông nghiệp và Hành chính công: Đòi hỏi dữ liệu chuyên ngành sâu, thiết bị phần cứng đặc thù hoặc phụ thuộc vào cơ sở dữ liệu đóng của cơ quan nhà nước, không khả thi để kiểm chứng và xây dựng giải pháp trong buổi lab.
-- Đối với bài Tùy biến CV theo JD (#19): Workflow rõ và bấm giờ được, nhưng nhóm dừng lại vì ranh giới đạo đức quá sát — chỉ cần nới boundary một chút là AI viết hộ kinh nghiệm ứng viên không có, và nhóm không muốn giải một bài mà rủi ro chính là gian dối.
-- Đối với bài Phân loại chi tiêu cá nhân (#21): Nhóm thống nhất đây là bài **Rule đủ** (phân loại theo tập danh mục cố định, đã có sẵn app ngân hàng làm), dùng AI ở đây là thừa. Nhóm giữ lại bài này trong biên bản như một ví dụ đối chứng để tự nhắc mình không mặc định chọn AI.
 ```
 
 **Disagreement (nếu có — ai lo gì, chốt ra sao):**
@@ -356,7 +348,7 @@ Dừng thử nghiệm và quay về quy trình chụp ảnh/thiết kế thủ c
 ---
 
 ### Self-check nộp phần 02 (nhóm)
-- [x] Có nhật ký hội tụ 21 → 1 (cluster + shortlist + score)
+- [x] Có nhật ký hội tụ 18 → 1 (cluster + shortlist + score)
 - [x] Có validation (quote thật) + research (link kiểm được)
 - [x] Có workflow trước/sau đủ thời gian, handoff, bottleneck, boundary, fallback
 - [x] Có PS v0 → v1, metric có trước/sau + cách đo, boundary có làm/không làm
